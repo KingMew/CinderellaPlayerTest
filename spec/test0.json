@@ -1,0 +1,22 @@
+[
+	{
+		"filename": "01. 9：02pm (M@STER VERSION).mp3",
+		"title": "Cool song",
+		"artist": "Vanilla Ice",
+		"identifier": "000",
+		"tags": {
+			"hot": 0,
+			"cool": 1
+		}
+	},
+	{
+		"filename": "09. 私はアイドル♥ (M@STER VERSION).mp3",
+		"title": "Hot song",
+		"artist": "Burning girls",
+		"identifier": "001",
+		"tags": {
+			"cool": 0,
+			"hot": 1
+		}
+	}
+]

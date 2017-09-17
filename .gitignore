@@ -1,6 +1,6 @@
-Playlist.json
+/Playlist.json
 music/*.mp3
-Cinderella.json
+/Cinderella.json
 .bundle
 .rspec
 

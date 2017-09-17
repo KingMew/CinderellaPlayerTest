@@ -1,0 +1,27 @@
+{
+	"appname": "CinderellaPlayerTest",
+	"version": "0.0.1",
+	"channels": [
+		{
+			"identifier": "test0",
+			"name": "Test Radio 1",
+			"file": "test0.json",
+			"description": "testy!",
+			"tags": [
+				{"name": "hot", "type": "float", "label": "Hot"},
+				{"name": "cool", "type": "float", "label": "Cool"}
+			]
+		},
+		{
+			"identifier": "test1",
+			"name": "Test Radio 52",
+			"file": "test1.json",
+			"description": "heyo!",
+			"tags": [
+				{"name": "cute", "type": "float", "label": "Cute"},
+				{"name": "cool", "type": "float", "label": "Cool"},
+				{"name": "passion", "type": "float", "label": "Passion"}
+			]
+		}
+	]
+}
