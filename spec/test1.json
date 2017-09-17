@@ -1,0 +1,46 @@
+[
+	{
+		"filename": "01. 9：02pm (M@STER VERSION).mp3",
+		"title": "Cute song",
+		"artist": "Vanilla Ice",
+		"identifier": "000",
+		"tags": {
+			"cute": 1,
+			"cool": 0,
+			"passion": 0
+		}
+	},
+	{
+		"filename": "09. 私はアイドル♥ (M@STER VERSION).mp3",
+		"title": "Cute song",
+		"artist": "Burning girls",
+		"identifier": "001",
+		"tags": {
+			"cool": 0,
+			"cute": 1,
+			"passion": 0
+		}
+	},
+	{
+		"filename": "01. 9：02pm (M@STER VERSION).mp3",
+		"title": "Passion-cute song",
+		"artist": "Vanilla Ice",
+		"identifier": "002",
+		"tags": {
+			"cute": 0.01,
+			"cool": 0,
+			"passion": 1
+		}
+	},
+	{
+		"filename": "09. 私はアイドル♥ (M@STER VERSION).mp3",
+		"title": "Cool song",
+		"artist": "Burning girls",
+		"identifier": "003",
+		"tags": {
+			"cool": 1,
+			"cute": 0,
+			"passion": 0
+		}
+	}
+]
