@@ -1,0 +1,3 @@
+class CinderellaChannel
+
+end
