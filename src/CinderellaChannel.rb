@@ -28,4 +28,15 @@ class CinderellaChannel
 	def description
 		return @channel_data.description
 	end
+	def tags
+		return @channel_data.tags
+	end
+
+	def getSong(tag)
+		songdata = JSON.parse(File.read(@config_location+"/"+@channel_data.file), object_class: OpenStruct)
+		songdata.select! do |song|
+			song.tags.send(tag) == 1
+		end
+		return songdata[0]
+	end
 end

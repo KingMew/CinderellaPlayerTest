@@ -41,4 +41,20 @@ describe CinderellaChannel do
 			expect(@channel2.description).to eq "heyo!"
 		end
 	end
+
+	describe "#tags" do
+		it "will return the Channel's possible tags" do
+			expect(@channel.tags.length).to eq 2
+			expect(@channel2.tags.length).to eq 3
+		end
+	end
+
+	describe "#getSong" do
+		it "will get the cool song from test playlist 1" do
+			expect(@channel.getSong("cool").title).to eq "Cool song"
+		end
+		it "will get the hot song from test playlist 1" do
+			expect(@channel.getSong("hot").title).to eq "Hot song"
+		end
+	end
 end
